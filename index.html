@@ -7,7 +7,7 @@
   <meta name="author" content="">
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <link rel="stylesheet" href="./libraries/frameworks/revealjs/css/reveal.min.css">
+  <link rel="stylesheet" href="./libraries/frameworks/revealjs/css/reveal.css">
   <link rel="stylesheet" href="./libraries/frameworks/revealjs/css/theme/moon.css" id="theme">
   <link rel="stylesheet" href="./libraries/highlighters/highlight.js/css/github.css" id="theme">
   <!--[if lt IE 9]>
@@ -61,7 +61,7 @@
 <br><br><br><br>
 
 <hr noshade size=2 color='BABABA'>
-<p style="color:white; text-shadow:10px"> 7 de noviembre de 2016 </p>
+<p style="color:white; text-shadow:10px"> 9	 de octubre de 2017 </p>
 <p><small>  <a  style="color:white;" href="http://github.com/leandroroser">Leandro Roser </a> </small></p>
 
 </section>
@@ -78,8 +78,8 @@
 </ul>
 
 <ul>
-<li class='fragment'> <p> Microarrays </p> </li>
-<li class='fragment'> <p>  Next Generation Sequencing (NGS) </p> </li>
+<li class='fragment' style = 'color:#17ff2e;' > Microarrays </li>
+<li class='fragment' style = 'color:#17ff2e;'> Secuenciación masiva <span style = "color:white" > &nbsp;(Next Generation Sequencing, NGS)</span> </li>
 </ul>
 
 </section>
@@ -87,60 +87,41 @@
 <!-----SLIDE 3-------------------------------------------->
 <section class='' data-state='' id='slide-3'>
 <ul style="list-style: none; width:100%">
-<li><h3>Transcriptómica</h3> </br> </li>
+<li><h3>Microarrays</h3> </br> </li>
 
-<li>
-<div  style='float:left;width:100%'>
+<div class='fragment' style='float:left;width:100%;'>
   
-<div class='fragments' style='float:left;width:50%'>
-<p>Microarrays</p>
+<div  style='float:left;width:50%'>
 <div style='float:left;width:80%;'>
-    <img height='380' width= '340' src='./assets/img/microarray.png'/>
+    <img height='400' width= '380' src='./assets/img/microarray.png'/>
 </div>
 </div>
 
-<div style='float:right;width:40%;padding:0px; margin-left:-250px; margin-top:80px;'> 
-<p class='fragment' style = 'text-align: left;'> Marcar muestras con fluorocromos. Poner en placa en igual proporción.
-Detección de color con una cámara.</p>
+<div style='float:right;width:40%;padding:0px; margin-left:-250px; margin-top:30px;'> 
+<ul style = 'text-align: left; font-size:0.9em'>
+<li>Extraer ARN de muestras</li>
+<br>
+<li> Construir bibliotecas de ADNc marcadas con fluorocromos </li>
+<br>
+<li> Poner en placa en igual proporción </li> 
+<br>
+<li> Se detecta el color emitido con una cámara </li>
+</ul>
+
 </div>
 </div>
-</li>
 </ul>
 </section>
-
 
 <!-----SLIDE 4-------------------------------------------->
 <section class='' data-state='' id='slide-4'>
   <ul style="list-style: none; width:100%">
-  <li> <h3>Transcriptómica</h3> </br> </li>
-
-<li>
-<div  style='float:left;width:100%'>
-<div class='fragments' style='float:left;width:50%'>
-<p>RNA-Seq (2008)</p>
-<div style='float:left;width:100%;'>
-    <img height='330px' width= '2000px' src='./assets/img/illumina.png'/>
-</div>
-</div>
-<div style='float:right;width:40%;padding:0px; margin-left:-250px; margin-top:80px;'> 
-<p class='fragment' style = 'text-align: left;'> Extraer ARN - fragmentarlo - construir biblioteca de cADN - secuenciar en Illumina. </p>
-</div>
-</div>
-</li>
-</ul>
-</section>
-
-
-<!-----SLIDE 6-------------------------------------------->
-
-
-<section class='' data-state='' id='slide-5'>
-  <ul style="list-style: none; width:100%">
-  <li><h3>RNA-Seq</h3></br></li>
+  <li><h3>Secuenciación masiva</h3></br></li>
 <li>
 <div class='fragments' style='float:center'>
+<span style = "color:#17ff2e"> Diversas plataformas</span><span>:&nbsp;(Roche 454, SOLiD, Illumina)</span> 
+<br><br><br>
 <p> Plataformas Illumina </p>
-<br><br>
 <div style='float:left;width:100%;'>
     <img height='80%' width= '80%' src='./assets/img/platforms.png'/>
 </div>
@@ -149,12 +130,12 @@ Detección de color con una cámara.</p>
 </section>
 
 
-<!-----SLIDE 6-------------------------------------------->
 
+<!-----SLIDE 5-------------------------------------------->
 
-<section class='' data-state='' id='slide-6'>
+<section class='' data-state='' id='slide-5'>
  <ul style="list-style: none; width:100%">
-  <li> <h3>RNA-Seq</h3> </br> </li>
+   <li><h3>Secuenciación masiva</h3></br></li>
 <li>
 <div class='fragments' style='float:center'>
 <p> Secuenciación - relación costo/Gb </p>
@@ -168,56 +149,73 @@ Detección de color con una cámara.</p>
 
 
 
-<!-----SLIDE 5-------------------------------------------->
-<section class='' data-state='' id='slide-7'>
+<!-----SLIDE 6-------------------------------------------->
+<section class='' data-state='' id='slide-6'>
   <ul style="list-style: none; width:100%">
-  <li><h3>RNA-Seq</h3>  </br> </li>
- 
+  <li> <h3>RNA-Seq (2008)</h3> </br> </li>
+
 <li>
-<div  style='float:left;width:100%'>
-  
-<div class='fragments' style='float:left;width:50%'>
-<p>Construcción de librerías</p>
-<div style='float:left;width:100%;'>
-    <img height='380px' width= '1300px' src='./assets/img/libreria.gif'/>
-</div>
+<div  style='float:left;width:120%'>
+<div class='fragments' style='float:left;width:50%; margin-left:-100px'>
+    <img height='330px' width= '2000px' src='./assets/img/illumina.png'/>
 </div>
 
-<div style='float:right;width:40%;padding:0px; margin-left:-250px; margin-top:80px;'> 
-<p class='fragment' style = 'text-align: left;'> Dos opciones: ARNm o ARN total </p>
+<div style='float:right;width:40%;padding-right:100px; padding-left:0px; margin-left:0px; margin-right:-20px; margin-top:30px;'> 
+
+<ul style = 'text-align: left; font-size:0.9em;'>
+<li>  Extraer ARN  </li>
+<br>
+<li>  Fragmentarlo  </li> 
+<br>
+<li> Construir biblioteca de ADNc  </li>
+<br>
+<li> Secuenciar (Illumina)</li>
+</ul>
+
 </div>
 </div>
+</li>
+</ul>
+</section>
+
+	
+<!-----SLIDE 7-------------------------------------------->
+<section class='' data-state='' id='slide-7'>
+  <ul style="list-style: none; width:150%; margin-left:-50px">
+  <li  style = "margin-left:-100px"><h3>RNA-Seq</h3> </li>
+ 
+<li>
+<div  style='width:100%'>
+<p style = "color:#17ff2e; margin-left:-100px" >Construcción de bibliotecas </p>
+<div class='fragment' style = "width:50%; float:left; margin-left:-120px">
+<br>
+<p style = "font-size:0.8em"> Problema: ¡gran parte del ARN es ribosomal!</p>
+<img style = "width:50%" src='./assets/img/ARNR.jpg'/>
+</div>
+
+<div class='fragment' style = "width:50%; float:right;margin-right:120px; margin-top:-160px; margin-left:-50px; padding-left:0px">
+<p style = "font-size:0.8em"> Dos opciones: ARNm o ARN total </p>
+    <img  src='./assets/img/libreria.gif'/>
+</div>
+
+</div>
+
 </li>
 </ul>
 
 </section>
 
 
-<!-----SLIDE 8-------------------------------------------->
 
+
+<!-----SLIDE 8-------------------------------------------->
 
 <section class='' data-state='' id='slide-8'>
 <ul style="list-style: none; width:100%">
   <li><h3>RNA-Seq</h3></br></li>
 <li>
 <div class='fragments' style='float:center'>
-<p> Secuenciación con Illumina: SR vs PE </p>
-<br><br>
-<div style='float:left;width:100%;'>
-    <img height='80%' width= '80%' src='./assets/img/SRPE.png'/>
-</div>
-</li>
-</ul>
-</section>
-
-<!-----SLIDE 9-------------------------------------------->
-
-<section class='' data-state='' id='slide-9'>
-<ul style="list-style: none; width:100%">
-  <li><h3>RNA-Seq</h3></br></li>
-<li>
-<div class='fragments' style='float:center'>
-<p> Secuenciación con Illumina (SR) </p>
+<p> Secuenciación con Illumina </p>
 <div style='float:left;width:100%;'>
     <img height='75%' width= '75%' src='./assets/img/secuenciador.png'/>
 </div>
@@ -227,9 +225,9 @@ Detección de color con una cámara.</p>
 
 
 
-<!-----SLIDE 10-------------------------------------------->
+<!-----SLIDE 9-------------------------------------------->
 
-<section class='' data-state='' id='slide-10'>
+<section class='' data-state='' id='slide-9'>
   <ul style="list-style: none; width:100%">
   <li><h3>RNA-Seq</h3></br></li>
 <li>
@@ -248,14 +246,58 @@ Detección de color con una cámara.</p>
 </ul>
 </section>
 
-<!-----SLIDE 11-------------------------------------------->
+<!-----SLIDE 19-------------------------------------------->
 
-<section class='' data-state='' id='slide-11'>
+
+<section class='' data-state='' id='slide-10'>
 <ul style="list-style: none; width:100%">
   <li><h3>RNA-Seq</h3></br></li>
 <li>
+<div class='fragments' style='float:center'>
+<p> Secuenciación con Illumina: SR vs PE </p>
+<br><br>
+<div style='float:left;width:100%;'>
+    <img height='80%' width= '80%' src='./assets/img/SRPE.png'/>
+</div>
+</li>
+</ul>
+</section>
+
+<section class='' data-state='' id='slide-11'>
+<ul style="list-style: none; width:120%">
+  <li><h3>Procesamiento primario</h3></li>
+<li>
+<div class='fragments' style='float:center; width:100%'>
+<span> Tras secuenciar, se obtienen imágenes </span>
+<br><br>
+<div style='float:left;width:50%; padding:0px; margin-left:-150px'>
+    <img src='./assets/img/clusters.png'/>
+</div>
+<div style="font-size:0.7em; width:50%; float:right; margin-right:100px">
+<ul>
+<li> Son varias imágenes (120) por linea</li>
+<br>
+<li> Se toman por ciclo y por base </li>
+<br>
+<li> Se analiza intensidad para cada ciclo y se determinan secuencias de clusters ("base-calling") </li>
+<br>
+<li> El proceso (algoritmo) de base-calling posee cierto error (por presencia de ruido, etc.)</li>
+<br>
+<li> Todo esto lo hace automáticamente la plataforma, no nosotros </li>
+</ul>
+</div>
+
+</ul>
+</section>
+
+
+<!-----SLIDE 11-------------------------------------------->
+
+<section class='' data-state='' id='slide-12'>
+<ul style="list-style: none; width:100%">
+  <li><h3>RESULTADO: archivo FASTQ </h3></br></li>
+<li>
 <div class='fragments' style='float:left'>
-<p style='text-align:left'> Archivo FASTQ </p>
 <br>
 <p  style='text-align:left; font-size:25px'>
 
@@ -288,55 +330,73 @@ BA@BBBABBFFFGGGGGGGG
 </ul>
 </section>
 
-<!-----SLIDE 12-------------------------------------------->
-
-<section class='' data-state='' id='slide-12'>
-<ul style="list-style: none; width:100%">
-<li><h3>Diseño experimental</h3></br></li>
-<li>
-<div class='fragment' style='float:center'>
-<div style='float:left;width:100%;'>
-    <img height='60%' width= '60%' src='./assets/img/de.png'/>
-</div>
-</li>
-</ul>
-</section>
 
 <section class='' data-state='' id='slide-13'>
+
 <ul style="list-style: none; width:100%">
-<li><h3>Diseño experimental</h3></br></li>
-<li>
-<p> <span class="fragment" style= "color:#17ff2e; float:left">Profundidad de secuenciación o tamaño de la biblioteca </span> <br>  <span class="fragment" style="float:left">cantidad de lecturas totales en réplica (ej., 10 M) </span> </p>
-<div class='fragment' style='float:center'>
-<div style='float:left;width:100%;'>
-    <img height='70%' width= '70%' src='./assets/img/sample.png'/>
-</div>
-</li>
+  <li><h3>Alineamiento</h3></br></li>
 </ul>
+
+<div style = "width:130%">
+	
+<div class='fragment' style='float:left; width:55%; margin-left:-170px'>
+<p style="font-size:0.9em"> Alineo lecturas a mi genoma de referencia </p>
+<br>
+    <img style = "height: 200px; width:1200px" src='./assets/img/alineamiento.png'/>
+</div>
+
+<div class='fragment' style='float:right; width:45%; margin-left:20px; margin-right:130px;'>
+<p style="font-size:0.9em"> Cuento lecturas alineadas a cada gen </p>
+    <img style = "width: 80%" src='./assets/img/counts.png'/>
+</div>
+
+</div>
+
 </section>
 
+ <section class='' data-state='mint' id='slide-14'>
 
-<section class='' data-state='' id='slide-14'>
-  <ul style="list-style: none; width:100%">
-  <li><h3>Diseño experimental</h3></br></li>
-  <li>
-  <p> <span class="fragment" style= "color:#17ff2e; float:left">Cobertura </span> <br>  <span class="fragment" style="float:left; text-align:left"> número promedio de lecturas que alinean en una base específica del genoma = cuántas veces una base fue leída <i> en promedio </i> durante el proceso de secuenciación </span> </p>
-<div class='fragment' style='float:center'>
-<div style='float:left;width:100%;'>
-    <img height='60%' width= '60%' src='./assets/img/cobertura.png'/>
-</div>
-</li>
-</ul>
+<h2 style="color:white; width: 150%;  margin-left:-250px; margin-top: 250px;font-size:80px;">Interpretando resultados</h2>
+
 </section>
 
+<!-----SLIDE 12-------------------------------------------->
 
 <section class='' data-state='' id='slide-15'>
-<ul style="list-style: none; width:100%">
-<li><h3>Diseño experimental</h3></br></li>
- <li><p> 
+<ul style="list-style: none; width:150%; margin-left:-100px">
+<li><h3> Profundidad de secuenciación - <br> cobertura </h3><br></li></ul>
+
+<p> <span class="fragment" style= "color:#17ff2e; float:left; margin-left:-100px">Profundidad de secuenciación o tamaño de la biblioteca </span> <br>  
+<span class="fragment" style="float:left; margin-left:-100px">Cantidad de lecturas totales en réplica (ej., 10 M) </span> </p>
+<br>
+<div class='fragment' style='float:center'>
+<div style='float:left;width:100%;'>
+    <img height='50%' width= '50%' src='./assets/img/sample.png'/>
+</div>
+</section>
+
+
+<section class='' data-state='' id='slide-16'>
+<ul style="list-style: none; width:150%; margin-left:-100px">
+<li><h3> Profundidad de secuenciación - <br> cobertura </h3><br> </li>
+<li> </ul>
+  <p> <span class="fragment" style= "color:#17ff2e; float:left; margin-left:-100px">Cobertura </span> <br> 
+  <span class="fragment" style="float:left; text-align:left; margin-left:-100px"> Número promedio de lecturas que alinean en una base específica del genoma = cuántas veces una base fue leída <i> en promedio </i> durante el proceso de secuenciación </span> </p>
+<div class='fragment' style='float:center'>
+<div style='float:left;width:100%;'>
+    <img height='55%' width= '55%' src='./assets/img/cobertura.png'/>
+</div>
+
+</section>
+
+
+<section class='' data-state='' id='slide-17'>
+<ul style="list-style: none; width:150%; margin-left:-100px">
+<li><h3> Profundidad de secuenciación - <br> cobertura </h3></li>
+<li> </ul>
  <span class="fragment" style= "color:#17ff2e; float:left"> Fórmula de Lander y Waterman</span>
  <br> <br>
- <span class="fragment" style="float:left; text-align:left"> relación cobertura-número de lecturas-tamaño del genoma </span>
+ <span class="fragment" style="float:left; text-align:left"> relación cobertura-tamaño de biblioteca-tamaño del genoma </span>
  </p>
 <br>
 <br>
@@ -351,11 +411,9 @@ BA@BBBABBFFFGGGGGGGG
 <br>
 <p style="text-align:left">  <span style='color:#00BFFF'> G </span> &nbsp tamaño haploide del genoma de referencia </p>
 </div>
-</li>
-</ul>
 </section>
 
-<section class='' data-state='' id='slide-16'>
+<section class='' data-state='' id='slide-18'>
 <ul style="list-style: none; width:100%">
 <li><h3> Expresión diferencial </h3></br></li>
 <li><p> 
@@ -371,7 +429,7 @@ BA@BBBABBFFFGGGGGGGG
 </ul>
 </section>
 
-<section class='' data-state='' id='slide-17'>
+<section class='' data-state='' id='slide-19'>
 <ul style="list-style: none; width:100%">
 <li><h3> Expresión diferencial </h3></br></li>
 <li> <p> 
@@ -398,7 +456,7 @@ BA@BBBABBFFFGGGGGGGG
 </section>
 
 
-<section class='' data-state='' id='slide-18'>
+<section class='' data-state='' id='slide-20'>
 <ul style="list-style: none; width:100%">
 <li><h3> Expresión diferencial </h3></li>
 <li><p> 
@@ -425,7 +483,7 @@ BA@BBBABBFFFGGGGGGGG
 </section>
 
 
-<section class='' data-state='' id='slide-19'>
+<section class='' data-state='' id='slide-21'>
 <ul style="list-style: none; width:100%">
 <li><h3> Expresión diferencial </h3></br></li>
 <span class="fragment" style= "color:#17ff2e; float:left"> Normalización</span>
@@ -451,18 +509,18 @@ BA@BBBABBFFFGGGGGGGG
 </section>
 
 
-<section class='' data-state='' id='slide-20'>
+<section class='' data-state='' id='slide-22'>
 <ul style="list-style: none; width:100%">
 <li><h3>Expresión diferencial</h3></br></li>
 <li><span class="fragment" style= "color:#17ff2e; float:left"> FC (Fold Change) </span> </li>
  <br> <br>
-<li><span class="fragment" style="text-align:left; font-size:27px"> CONTEO-NORMALIZADO<sub style="font-size:20px">tratamiento</sub>/CONTEO-NORMALIZADO<sub style="font-size:20px" >control</sub></span> </li>
+<li><span class="fragment" style="text-align:left; font-size:27px; white-space:nowrap; verflow:hidden"> CONTEO-NORMALIZADO<sub style="font-size:20px">tratamiento</sub>/CONTEO-NORMALIZADO<sub style="font-size:20px" >control</sub></span> </li>
 <br>
 <br>
 
 <li> <span class="fragment" style= "color:#17ff2e; float:left"> logFC (log Fold Change) </span> </li>
  <br> <br>
-<li> <span class="fragment" style="text-align:left; font-size:27px"> log<sub style="font-size:20px">2</sub>(CONTEO-NORMALIZADO<sub style="font-size:20px">tratamiento</sub>+1)/log<sub style="font-size:20px">2</sub>(CONTEO-NORMALIZADO<sub style="font-size:20px" >control</sub>+1)</span> </li>
+<li> <span class="fragment" style="text-align:left; font-size:27px; margin-left:0px;white-space:nowrap; verflow:hidden"> log<sub style="font-size:20px">2</sub>[(CONTEO-NORMALIZADO<sub style="font-size:20px">tratamiento</sub>+1)/(CONTEO-NORMALIZADO<sub style="font-size:20px" >control</sub>+1)]</span> </li>
 <br>
 <li> <span class="fragment" style="text-align:left; font-size:27px; color:#00BFFF">por ej., usando RPKM</span></li>
 
@@ -470,21 +528,41 @@ BA@BBBABBFFFGGGGGGGG
  
 </section>
 
-<section class='' data-state='' id='slide-21'>
+<section class='' data-state='' id='slide-23'>
 <ul style="list-style: none; width:100%">
-<li><h3>Expresión diferencial</h3><br></li>  
-<li><span class="fragment" style= "color:#17ff2e; float:left"> Test de hipótesis </span> </li>
- <br> <br>
-<li> <span class="fragment" style="text-align:left; font-size:27px">
-<i>Ho</i>: “el conteo promedio para el gen x en la muestra A es igual al conteo promedio del gen x en
-la muestra  B ”</span></li>
+<li><h3>Expresión diferencial</h3><br></li></ul>  
+
+<span class="fragment" style= "color:#17ff2e; float:left"> Resultado final: tabla con genes, logFC y significación  </span> 
 <br>
-<br>
+<div class='fragment' style='float:center;width:100%;'>
+    <img height='70%' width= '70%' src='./assets/img/logfc.jpg'/>
+</div>
+
 </section>
 
-<section class='' data-state='' id='slide-22'>
+
+ <section class='' data-state='mint' id='slide-24'>
+
+<h2 style="color:white; width: 120%;  margin-left:-90px; margin-top: 200px;font-size:80px;">Diseño Experimental</h2>
+
+</section>
+
+<section class='' data-state='' id='slide-25'>
 <ul style="list-style: none; width:100%">
-<li><h3> Diseño Experimental II </h3><br></li>  
+<li><h3>Diseño experimental</h3></br></li>
+<li>
+<div class='fragment' style='float:center'>
+<div style='float:left;width:100%;'>
+    <img height='60%' width= '60%' src='./assets/img/de.png'/>
+</div>
+</li>
+</ul>
+</section>
+
+
+<section class='' data-state='' id='slide-26'>
+<ul style="list-style: none; width:100%">
+<li><h3> Diseño Experimental  </h3><br></li>  
 <li><span class="fragment" style= "color:#17ff2e; float:left;"> Fuentes de error técnico </span> </li>
  <br> <br> <br>
  
@@ -501,9 +579,9 @@ errores que ocurren desde el ingreso de las muestras a la celda, hasta la obtenc
 </ul>
 </section>
 
-<section class='' data-state='' id='slide-23'>
+<section class='' data-state='' id='slide-27'>
 <ul style="list-style: none; width:100%">
-<li><h3> Diseño Experimental II </h3><br></li>  
+<li><h3> Diseño Experimental </h3><br></li>  
 <li><span class="fragment" style= "color:#17ff2e; float:left"> Pregunta: ¿Cuántas celdas/líneas debo usar?  </span> </li>
  <br> <br> <br>
 <li><span class="fragment" style= "color:#00BFFF; float:left"> 7 tratamientos, 3 réplicas biológicas por tratamiento, 3 celdas </span> </li>
@@ -523,9 +601,9 @@ Aleatorizar en cada celda
 
 
 
-<section class='' data-state='' id='slide-24'>
+<section class='' data-state='' id='slide-28'>
 <ul style="list-style: none; width:100%">
-<li><h3> Diseño Experimental II </h3><br></li>
+<li><h3> Diseño Experimental </h3><br></li>
 <li><span class="fragment" style= "color:#17ff2e; float:left"> Pregunta: ¿Cuántas celdas/líneas debo usar?  </span> </li>
  <br> <br> <br>
 <li><span class="fragment" style= "color:#00BFFF; float:left"> Multiplexing </span> </li>
@@ -539,11 +617,11 @@ Aleatorizar en cada celda
 </ul>
 </section>
 
-<section class='' data-state='' id='slide-25'>
+<section class='' data-state=''  id='slide-29'>
 <ul style="list-style: none; width:100%">
-<li><h3> Diseño Experimental II </h3><br></li>  
+<li><h3> Diseño Experimental </h3><br></li>  
 <li><span class="fragment" style= "color:#17ff2e; float:left"> Pregunta: ¿Cuántas celdas/líneas debo usar?  </span> </li>
- <br> <br> <br>
+ <br> <br>
 <li><span class="fragment" style= "color:#00BFFF; float:left"> Multiplexing (con réplicas biológicas y técnicas) </span> </li>
 <li>
   <div class='fragment' style='float:center;margin-left:150px'>
@@ -554,7 +632,134 @@ Aleatorizar en cada celda
 </ul>
 </section>
 
-<section class='' data-state='mint'  id='slide-26'>
+<section class='' data-state="white"  id='slide-30'>
+ <div style= "margin-top:30%; color:black; font-size:5em">
+ <span >(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</span>
+ </div>
+ 
+</section>
+
+<section class='' data-state='' id='slide-31'>
+<ul style="list-style: none; width:100%">
+<li><h3 style="font-size:1.1em"> Otros usos de la secuenciación masiva </h3><br></li>  
+<li><span class="fragment" style= "color:#17ff2e; float:left"> Genómica, epigenómica  </span> </li>
+<br> <br>
+<ul> <style= "color:white; float:left">
+<li class="fragment" > <span style= "color:#17ff2e">DNA-Seq </span>:
+<br> 
+<i style = "color:#c1d192">WGS</i> (Whole-Genome Sequencing), <i style = "color:#c1d192">WES</i> (Whole-Exome Sequencing)<br>
+<span> >Detección de variación genética (SNPs, deleciones, inserciones, variaciones estructurales), GWAS </span> </li>
+<li class="fragment"> <span style= "color:#17ff2e">ChIP-Seq (Chromatin Inmuno-Precipitation)</span>:
+<br> Análisis de interacción de proteinas con ADN</li>
+<li class="fragment"> <span style= "color:#17ff2e">(...lista larga de técnicas...)</span></li>
+<br>
+</span>
+</ul>
+
+<li> <span class="fragment" style= "color:white; float:left; font-size:0.8em; margin-left:-100px"> -> Distintos objetivos y formas de obtener bibliotecas, igual procedimiento de secuenciación</li>
+</li>
+</ul>
+</section>
+
+
+<section class='' data-state='' id='slide-32'>
+<ul style="list-style: none; width:100%">
+<li><h3 style="font-size:1.1em"> ¿Qué está pasando en el año 2017? </h3><br></li> 
+ 
+<li><span class="fragment" style= "color:#17ff2e; float:left"> Single-cell RNA-Seq (scRNA-seq): análisis del genoma de células individuales </span> </li>
+ <br> <br>
+<li> <div class='fragment' style='float:center;margin-left:100px'>
+    <img height='354px' width= '800px' src='./assets/img/singlecell.jpg'/>
+    <p> (Zeisel <i>et al.</i> 2015) </p>
+</div></li>
+</ul>
+</section>
+
+<section class='' data-state='' id='slide-33'>
+<ul style="list-style: none; width:100%">
+<li><h3 style = "inline-block"> Usos de <span style="inline-block; text-transform:lowercase;">sc</span>RNA-seq  </h3><br></li> 
+
+<div>
+<div style='float:left; margin-top:-50px; width:50%'>
+    <img height = "600px" src='./assets/img/usosSC.jpg'/>
+    <p style = "font-size:0.5em"> (Kolodziejczyk <i>et al.</i> 2015) </p>
+</div>
+
+<li><span class="fragment" style= "color:white; float:left; width:50%">
+<ul>
+<br>
+<li> Identificación de subpoblaciones celulares en órganos y tejidos </li>
+<br>
+<li> Búsqueda de marcadores para diferenciar subpoblaciones celulares </li>
+<br>
+<li> Otros...</li>
+</ul> </span> </li>	
+</div>
+</ul>
+</section>
+
+
+<section class='' data-state='' id='slide-34'>
+  <ul style="list-style: none; width:100%">
+  <li><h3>¿Qué nos depara el futuro?</h3></br></li>
+<li>
+<div style = "float:center; margin-left:160px">
+<img  src='./assets/video/bubu.gif'/>
+</div>
+</li>
+</ul>
+</section>
+
+<section class='' data-state='' id='slide-35'>
+<ul style="list-style: none; width:100%">
+<li><h3 style="font-size:1.2em"> Third-generation sequencing </h3></li> 
+ 
+<li><span class="fragment" style= "color:#17ff2e; float:left"> (en desarrollo actualmente) </span> </li>
+<div class='fragment' style='float:left'>
+    <img height='550px'   src='./assets/img/moore2.png'/>
+</div>
+</li>
+</ul>
+</section>
+
+<section class='' data-state='' id='slide-36'>
+
+<ul style="list-style: none; width:120%">
+	
+<li><h3 style="font-size:1.2em"> Third-generation sequencing </h3></li> 
+
+<br> 
+
+<li><span class="fragment" style= "color:white; float:left;"> 
+<p style= "color:#17ff2e;"> Ventajas:</p> 
+<ul>
+<li> Se secuencian moléculas individuales: evita paso de PCR previo para construcción de bibliotecas y clusters </li>
+<li> Genera lecturas largas (>100pb) </li>
+<br>
+</ul>
+</span></li>
+
+
+<li><span class="fragment" style= "color:white; float:left;"> 
+<p style= "color:#17ff2e;"> Desventajas:</p> 
+<ul><li>Alta tasa de error en la identificación de bases</li></ul>
+<br>
+<p style= "color:#17ff2e; clear:left"> Tecnologías:</p> 
+<ul>
+	 <li> PacBio </li>
+     <li> MinION (secuenciador portatil) </li>
+</ul>
+</span></li>
+ 
+<div class= "fragment" style= "width:30%; float:right;">
+ <img height='300px' width= '300px' src='./assets/img/miniion.jpg'/>
+ </div>
+
+</ul>
+</section>
+
+
+<section class='' data-state='mint'  id='slide-37'>
  <!-- <br><br><br><br>
 <h3 style="color:white"> ¡Gracias! </h3>-->
 </section>

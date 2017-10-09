@@ -1266,6 +1266,9 @@ body {
 .sunset .reveal .state-background {
 	background: rgba( 255, 122, 0, 0.6 );
 }
+.white .reveal .state-background {
+	background: rgba(255, 255, 255, 0.95 );
+}
 
 
 /*********************************************
